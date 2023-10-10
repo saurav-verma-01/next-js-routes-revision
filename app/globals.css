@@ -1,3 +1,20 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+}
+a:hover {
+  border-bottom: 2px solid dodgerblue;
+}
+
 main {
   padding: 2rem;
   display: flex;

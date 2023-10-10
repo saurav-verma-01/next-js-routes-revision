@@ -1,0 +1,31 @@
+.header {
+  background-color: bisque;
+  padding: 2rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav p {
+  font-size: 1.4rem;
+}
+.links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.75rem;
+}
+
+.links li {
+  white-space: nowrap;
+  cursor: pointer;
+  color: #0099ff;
+}
+
+.signup {
+  background-color: yellowgreen;
+  padding: 1rem 3rem;
+}
