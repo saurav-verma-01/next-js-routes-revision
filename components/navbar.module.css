@@ -1,5 +1,5 @@
 .header {
-  background-color: bisque;
+  background-color: #d3fdd8;
   padding: 2rem;
 }
 
@@ -12,20 +12,24 @@
   font-size: 1.4rem;
 }
 .links {
-  list-style: none;
+  /* list-style: none; */
   display: flex;
   align-items: center;
   gap: 1rem;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
+  font-weight: bold;
 }
 
 .links li {
   white-space: nowrap;
   cursor: pointer;
-  color: #0099ff;
+  color: #084cba;
 }
 
-.signup {
-  background-color: yellowgreen;
-  padding: 1rem 3rem;
+.links .signup {
+  background-color: #084cba;
+  padding: 0.8rem 2rem;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 0.5rem;
 }
